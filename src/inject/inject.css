@@ -1,0 +1,16 @@
+.sentiment {
+  float: right;
+  font-size: 0.9em;
+}
+
+.sentimentHeading {
+  font-weight: bold;
+}
+
+.positive {
+  color: #008209;
+}
+
+.negative {
+  color: #a60400;
+}

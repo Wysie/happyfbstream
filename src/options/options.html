@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Happy FB Stream Options</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Give your Facebook stream a sentiment score." />
+        <meta name="author" content="Soh Yuan Chin" />
+        <link rel="stylesheet" href="css/chrome_shared.css"/>
+        <style>
+            /* Style for this page */
+            body>.main-container{max-width:800px;margin:50px auto}
+            header{max-width:700px;margin:0 auto 50px auto;font-size:48px}
+            .fork-github{position:absolute;top:0;right:0;width:164px;height:164px}
+            .social-buttons{margin-top:-30px}
+            .fr{float:right}
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+            <header>
+                Happy FB Stream
+            </header>
+
+            <h1>Setup</h1>
+            <hr/>
+            
+            <!-- Widgets for Chrome Extension starts -->
+            <h3>AlchemyAPI API Key (<a href="http://www.alchemyapi.com/api/register.html">Get Free API Key Here</a>)</h3>
+            <input id="apikey" type="text" placeholder="API Key"/>
+            
+            <br />
+            <br />
+
+            <button id='save'>Save Settings</button>
+
+            <br/>
+            <br/>
+
+            <div id="status"></div>
+        </div>
+    <script src="js/options.js"></script>
+    </body>
+</html>
