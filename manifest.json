@@ -1,6 +1,6 @@
 {
-  "name": "Happy FB Stream",
-  "version": "0.0.1",
+  "name": "Facebook Stream Sentiment",
+  "version": "0.2",
   "manifest_version": 2,
   "description": "Give your Facebook stream a sentiment score.",
   "homepage_url": "http://yc.sg",
@@ -9,15 +9,14 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "default_locale": "en",
   "options_page": "src/options/options.html",
   "content_scripts": [
     {
       "matches": [
-        "http://www.facebook.com/",
-        "http://facebook.com/",
-        "https://www.facebook.com/",
-        "https://facebook.com/"
+        "http://www.facebook.com/*",
+        "http://facebook.com/*",
+        "https://www.facebook.com/*",
+        "https://facebook.com/*"
       ],
       "css": [
         "src/inject/inject.css"

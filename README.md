@@ -5,12 +5,13 @@ Simple Chrome Extension using AlchemyAPI to give each status on your Facebook st
 Getting Started
 ===============
 1. Register for a free AlchemyAPI key at: http://www.alchemyapi.com/api/register.html
-2. Download this repo and load it as per "Load the extension" at: https://developer.chrome.com/extensions/getstarted
+2a. Download this repo and load it as per "Load the extension" at: https://developer.chrome.com/extensions/getstarted OR
+2b. Get it from the Chrome Web Store: https://chrome.google.com/webstore/detail/facebook-stream-sentiment/hkmfocpbnojnkkeokiekjknflmmagegl
 3. Go to the extension's Options, and enter the API Key you got in Step 1.
 
 Screenshots
 ===========
-See screenshot/screenshot.jpg.
+Available at the Chrome Web Store: https://chrome.google.com/webstore/detail/facebook-stream-sentiment/hkmfocpbnojnkkeokiekjknflmmagegl
 
 Libraries Used
 ==============
